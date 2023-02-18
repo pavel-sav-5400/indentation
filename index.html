@@ -38,14 +38,14 @@
                 <nav class="navigation">
                     <ol class="navigation__list">
                         <li class="navigation__item">
-                            <a href="" class="navigation__link">Отступ задается от предыдущего элемента к следующему</a>
+                            <a href="#section-one" class="navigation__link">Отступ задается от предыдущего элемента к следующему</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="" class="navigation__link">Отступ задается последнему возможному элементу в
+                            <a href="#section-two" class="navigation__link">Отступ задается последнему возможному элементу в
                                 DOM-дереве</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="" class="navigation__link">Для последнего элемента группы отступ обнуляется</a>
+                            <a href="#section-three" class="navigation__link">Для последнего элемента группы отступ обнуляется</a>
                         </li>
                     </ol>
                 </nav>
@@ -54,7 +54,7 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="section__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму,
+                <h2 class="section__title" id="section-one">Отступ задается от предыдущего элемента к следующему: от первого ко второму,
                     сверху вниз, слева направо.
                 </h2>
                 <div class="block">
@@ -93,7 +93,7 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="section__title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
+                <h2 class="section__title" id="section-two">Отступ задается последнему возможному элементу в DOM-дереве</h2>
                 <p class="article__text">
                     Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите
                     на этот список:
@@ -133,7 +133,7 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="section__title">Для последнего элемента группы отступ всегда обнуляется</h2>
+                <h2 class="section__title" id="section-three">Для последнего элемента группы отступ всегда обнуляется</h2>
                 <p class="article__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
                 <p class="article__text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего
                     блока
