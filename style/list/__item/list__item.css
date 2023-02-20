@@ -1,4 +1,3 @@
-.list__item::before {
-    content: "\2014 ";
-    margin-right: 5px;
+.list__item {
+    margin-bottom: 10px;
 }

@@ -1,0 +1,9 @@
+.list__item_list-style_dash {
+        list-style: none;
+
+}
+
+.list__item_list-style_dash::before {
+    content: "\2014 ";
+    margin-right: 5px;
+}
